@@ -87,13 +87,13 @@ authnz_ldap*.
 
 Sitio de usuario:
 
-![Captura1](img/users.png)
+![Captura1](img/user-config.png)
 
 ![Captura1](img/Screenshot_27.png)
 
 ![Captura1](img/acceso-usuario.png)
 
-![Captura1](img/user-config.png)
+![Captura1](img/usermiempresa.png)
 
 
 Sitio de grupo:
