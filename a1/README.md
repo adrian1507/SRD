@@ -93,7 +93,7 @@ Sitio de usuario:
 
 ![Captura1](img/acceso-usuario.png)
 
-![Captura1](img/usermiempresa.png)
+![Captura1](img/user-config.png)
 
 
 Sitio de grupo:
