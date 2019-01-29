@@ -4,8 +4,6 @@
 
 * Instalar Servicio SMTP en Windows 2016 Server
 
-
-
 ## Configuración de SMTP
 
 * Configuración de servicio SMTP a través del administrador de aplicaciones (IIS) 6.0. Realizar las siguientes acciones de configuración:
@@ -39,20 +37,40 @@
 
   - Comprueba carpetas de correo creados en C:\Inetpub\mailroot.
 
-  ![Captura](img/Captura.PNG)
+  ![Captura](img/Captura8.PNG)
 
 ### Cliente Windows:
 
 * Comprobar acceso al nuevo nombre DNS creado en el servidor.
 
+  ![Captura](img/Captura9.PNG)  
+
+  ![Captura](img/Captura10.PNG)
+
 * Configurar el cliente de correo Live mail agregando dos cuentas de correo cualesquiera (usuarios AD -dominio- y no AD). Se deberá especificar: usuario / buzón, contraseña,  servidor SMTP.
 
 * Enviar varios correos desde / hacia las diferentes cuentas y comprobar envío (real o ficticio) y carpetas mailroot. Las carpetas existentes en mailroot alojan mensajes en cola (Queue), mensajes para destinatarios desconocidos (Badmail) y mensajes entregados (Drop).
+
+  ![Captura](img/Captura11.PNG)
+
+  ![Captura](img/Captura12.PNG)
+
+  ![Captura](img/Captura13.PNG)
+
+  ![Captura](img/Captura14.PNG)
 
 ### Servidor SMTP:
 
 * Nueva configuración de servicio SMTP a través del administrador de aplicaciones (IIS) 6.0. Establecer autenticación básica de Windows. Probar diferentes configuraciones de dominio predeterminado, cifrado TLS, etc.
 
+![Captura](img/Captura15.PNG)
+
 ### Cliente Windows:
 
 * Configurar las cuentas según los parámetros especificados en el servidor. Enviar varios correos desde / hacia las diferentes cuentas y comprobar envío y carpetas mailroot. En este caso sólo tendrán acceso al servidor SMTP cuentas del dominio y correspondientes a usuarios de AD.
+
+![Captura](img/Captura16.PNG)
+
+![Captura](img/Captura17.PNG)
+
+![Captura](img/Captura18.PNG)
