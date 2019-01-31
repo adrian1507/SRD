@@ -74,3 +74,50 @@
 ![Captura](img/Captura17.PNG)
 
 ![Captura](img/Captura18.PNG)
+
+# hMailServer
+
+## Configuración de hMailServer en Windows Server
+
+* Descargamos e instalamos en el servidor Windows 2016 server el servidor de correo hMailServer.
+* Creamos dos dominios denominados srd.edu y asir.edu.
+
+![Captura](img/img/Captura.PNG)
+
+* Ejecuta los diagnósticos para ambos dominios y soluciona el error de backup asignando una carpeta para tal fin. Establece copia de seguridad de los mensajes.
+
+![Captura](img/img/Captura1.PNG)
+![Captura](img/img/Captura2.PNG)
+![Captura](img/img/Captura3.PNG)
+![Captura](img/img/Captura4.PNG)
+![Captura](img/img/Captura5.PNG)
+
+* Crea dos cuentas para dos usuarios ficticios en cada uno de los dos dominios. Investiga y configura las cuentas con diferentes opciones (cuota de disco, auto-reply, forwarding, signature, etc.)
+
+![Captura](img/img/Captura6.PNG)
+![Captura](img/img/Captura7.PNG)
+![Captura](img/img/Captura8.PNG)
+![Captura](img/img/Captura9.PNG)
+![Captura](img/img/Captura10.PNG)
+
+* Configura el servicio DNS para crear las entradas mail.srd.edu y mail.asir.edu que apunten a la dirección ip del servidor windows.
+
+![Captura](img/img/Captura11.PNG)
+
+* Realiza todas las opciones de configuración que consideres necesarias y/o convenientes.
+
+![Captura](img/img/Captura12.PNG)
+
+![Captura](img/img/Captura13.PNG)
+
+* Configura en el cliente Windows un cliente de correo como thunderbird (en los ordenadores clientes) para acceder al servidor de correo instalado en Windows 2016.
+
+![Captura](img/img/Captura14.PNG)
+
+* Realiza prueba de envío y recepción de correos entre los diferentes usuarios, comprobando, además de envío y recepción correctas, el efecto de las opciones configuradas en las cuentas.
+
+![Captura](img/img/Captura15.PNG)
+
+![Captura](img/img/Captura16.PNG)
+
+![Captura](img/img/Captura17.PNG)
