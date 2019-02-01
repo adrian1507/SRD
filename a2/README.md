@@ -121,3 +121,13 @@
 ![Captura](img/img/Captura16.PNG)
 
 ![Captura](img/img/Captura17.PNG)
+
+* Crea una lista de distribución empleados asociada al dominio y añade a los dos usuarios de asir.edu a ella.
+
+![Captura](img/img/Captura18.PNG)
+
+![Captura](img/img/Captura19.PNG)
+
+* Realiza prueba de envío y recepción de correos por medio de la lista de distribución.
+
+![Captura](img/img/Captura20.PNG)
