@@ -4,7 +4,7 @@ Se pide realizar y subir a la plataforma un informe sobre la práctica a realiza
 
 * Descargamos el paquete de phpList desde su página oficial, lo descomprimimos y copiamos la carpeta *list* en */var/www/html/*
 
- ![Captura](img/Captura.PNG)
+ ![Captura](img/Captura0.PNG)
 
  * Entramos a mysql, creamos una nueva base de datos, un nuevo usuario y le concedemos permisos.
 
