@@ -1,6 +1,6 @@
 # Servicio VoIP
 ## Introducción
-En esta actividad
+En esta actividad instalaremos un servicio de llamadas con la herramienta **PBX 3CX**, comprobando el envío y recepción de llamadas.
 
 ---
 
